@@ -9,6 +9,7 @@
 <body>
 	<%! int data = 50; %>
 	<%
+	// 변수 사용
 		out.println("Value of the variable is:" + data);
 	%>
 
