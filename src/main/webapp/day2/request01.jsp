@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Implicit Objets</title>
+<title>Implicit Objects</title>
 </head>
 <body>
 	<form action="request01_process.jsp" method="post">
