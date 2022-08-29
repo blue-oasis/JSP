@@ -19,9 +19,9 @@
 			Enumeration paramNames = request.getParameterNames();
 			while (paramNames.hasMoreElements()) {
 				String name = (String) paramNames.nextElement();
-				out.print("<th><td>" + name + "</td>\n");
+				out.print("<tr><td>" + name + "</td>\n");
 				String paramValue = request.getParameter(name);
-				out.println("<td>" + paramValue + "</td></th>\n"); 
+				out.println("<td>" + paramValue + "</td></tr>\n"); 
 			}
 		%>
 	</table>
