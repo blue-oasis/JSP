@@ -15,7 +15,7 @@
 		
 		
 	<p>---------------영문 로케일-------------------
-	 <fmt:setLocale value="en" />
+	 <fmt:setLocale value="ko" />
 	 <fmt:setBundle basename="bundle.myBundle" var="resourceBundle" />
 	 <p> 제목 : <fmt:message key="title" bundle="${resourceBundle}" />
 	 <p> 이름 : <fmt:message key="username" bundle="${resourceBundle}"></fmt:message>
