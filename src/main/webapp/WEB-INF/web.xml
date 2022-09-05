@@ -37,7 +37,7 @@
 	
 	
 	<filter>
-		<filter-name>Filter02_02</filter-name>
+		<filter-name>Filter02_2</filter-name>
 		<filter-class>filter.LogFileFilter</filter-class>
 		<init-param>
 			<param-name>filename</param-name>
