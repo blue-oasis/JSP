@@ -9,6 +9,16 @@
 			<welcome-file>default.htm</welcome-file>
 			<welcome-file>default.jsp</welcome-file>
 		</welcome-file-list>
+		
+		<servlet>
+			<servlet-name>myController</servlet-name>
+			<servlet-class>controller.ControllerServlet</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>myController</servlet-name>
+			<url-pattern>/ch18/ControllerServlet</url-pattern>
+		</servlet-mapping>
 	</web-app><!--  <?xml version="1.0" encoding="UTF-8"?>
 <web-app>
 	<error-page>
